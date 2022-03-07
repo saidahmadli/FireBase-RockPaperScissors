@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS FireBase</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="jumbotron text-center header">
+                <h2>Rock Paper Scissors</h2>
+            </div>
+            <div id="user">
+                <form class="text-center userForm" action="">
+                    <input id="userName" placeholder="Name" type="text">
+                    <button id="click">Start</button>
+                    <button class="text-center" id="reclick">Restart</button>
+                </form>
+            </div>
+            <div class="row my-5">
+                <div class="col-4">
+                    <div class=" box text-center">
+                        <h3 id="userName1">Waiting for Player 1</h3>
+                        <ul id="choice1">
+                            <li id="Rock1">Rock</li>
+                            <li id="Paper1">Paper</li>
+                            <li id="Scissors1">Scissors</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div id="result" class="box text-center">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box text-center">
+                        <h3 id="userName2">Waiting for Player 2</h3>
+                        <ul id="choice2">
+                            <li id="Rock2">Rock</li>
+                            <li id="Paper2">Paper</li>
+                            <li id="Scissors2">Scissors</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-container">
+                <div class="d-flex flex-column">
+                    <div id="chat"></div>
+                    <div>
+                        <input id="message" class="my-2 send" type="text">
+                        <button id="send">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./game.mjs"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+#choice1,
+#choice2 {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+}
+
+.box {
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.custom-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 10px;
+    background: #fe491a;
+    color: white;
+    font-size: 15px;
+}
+
+.send {
+    width: 93%;
+}
+
+.main {
+    background-color: #4abdac;
+}
+
+.header {
+    background-color: #fe491a;
+    padding: 25px 0;
+}
+
+#chat {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    height: 200px;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+#reclick {
+    display: none;
+    margin: 0 auto;
+}
