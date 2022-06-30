@@ -11,13 +11,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAYif0zWMdY9yo3c743Lr-8_8dajP8t2EI",
-  authDomain: "rspapp-403fb.firebaseapp.com",
-  databaseURL: "https://rspapp-403fb-default-rtdb.firebaseio.com",
-  projectId: "rspapp-403fb",
-  storageBucket: "rspapp-403fb.appspot.com",
-  messagingSenderId: "390106880270",
-  appId: "1:390106880270:web:e7d9d978a19ec58f6d9f5f",
+  apiKey: "AIzaSyCHg-QOVc45GdHN8zN1gc8FM0ZTw-uOUhQ",
+  authDomain: "fir-rps-e9a00.firebaseapp.com",
+  databaseURL: "https://fir-rps-e9a00-default-rtdb.firebaseio.com",
+  projectId: "fir-rps-e9a00",
+  storageBucket: "fir-rps-e9a00.appspot.com",
+  messagingSenderId: "1039088106664",
+  appId: "1:1039088106664:web:ec24797f55486a9a79569d",
   measurementId: "G-HSZ49QZ2S2"
 };
 
